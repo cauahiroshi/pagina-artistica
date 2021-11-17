@@ -1,20 +1,26 @@
 body{
-margin-left: 130px;
+margin-left: 125px;
 font-family: arial;
 color: #484848;
 }
 
-.navigation{
-    background-color: #ff7212;
-    color: white;
-    margin-left: -15px;
-    padding-left: 15px;
-    font-size: 32px;
+
+
+
+.tituloArtigo{
+    color: black;
 }
 
 .tituloArtigo h1{
     font-size: 50px;
-    color: black;
+}
+
+.tituloArtigo h2{
+    background-color: #ff7212;
+    color: white;
+    margin-left: -15px;
+    padding-left: 20px;
+    font-size: 32px;
 }
 
 .tituloArtigo h4{
@@ -22,10 +28,55 @@ color: #484848;
     font-size: 14px;
 }
 
+
+
+
+
 .content{
-    margin-right: 300px;
+    margin-top: 50px;
+    margin-right: 865px;
+    line-height: 28px;
 }
 
 .content img{
     width: 600px;
+    margin-top: 24px;
+    margin-bottom:  -10px;
+}
+
+.content figcaption{
+    font-size: 12px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.fimDaPagina{
+    margin-top: 50px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.fimDaPagina h2{
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.fimDaPagina iframe{
+    margin-bottom: 40px;
+}
+
+.fimDaPagina ul{
+    list-style: none;
+    padding-left: 0;
+    line-height: 28px;
+}
+
+.fimDaPagina a{
+    color: #484848;
+    font-size: 18px;
 }
